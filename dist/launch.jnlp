@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>TugasBesar_PrivateMusik</title>
+        <vendor>Ronaldo</vendor>
+        <homepage href=""/>
+        <description>TugasBesar_PrivateMusik</description>
+        <description kind="short">TugasBesar_PrivateMusik</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="TugasBesar_PrivateMusik.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+<jar href="lib/iText-5.0.5.jar"/>
+<jar href="lib/itextpdf-5.1.0.jar"/>
+</resources>
+    <application-desc main-class="tugasbesar_privatemusik.Splashscreen">
+    </application-desc>
+</jnlp>
